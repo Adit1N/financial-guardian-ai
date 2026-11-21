@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Financial Guardian AI",
+  "version": "1.2.0",
+  "description": "AI-powered financial scam protection and optimization.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "https://mail.google.com/*"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Financial Guardian AI"
+  }
+}

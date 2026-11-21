@@ -1,0 +1,11 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 390px;
+  min-height: 520px;
+}
+
+body {
+  overflow-x: hidden;
+}
