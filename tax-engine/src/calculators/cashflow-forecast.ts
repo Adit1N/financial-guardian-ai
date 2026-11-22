@@ -1,7 +1,7 @@
 import type { Transaction } from "../types";
 import { calculateSummary } from "./summary";
 
-interface ForecastOptions {
+export interface ForecastOptions {
   historyStart: string;
   historyEnd: string;
   forecastDays: number;

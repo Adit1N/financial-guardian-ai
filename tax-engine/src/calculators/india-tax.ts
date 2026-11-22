@@ -1,4 +1,4 @@
-interface IndiaTaxInput {
+export interface IndiaTaxInput {
   taxYear: "2026-27";
   regime: "new";
   residentIndividual: boolean;
