@@ -50,3 +50,5 @@ output/
 api/model/model.pt
 venv/
 __pycache__/
+
+*.onnx.data
