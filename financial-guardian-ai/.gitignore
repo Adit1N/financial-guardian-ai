@@ -1,0 +1,49 @@
+﻿# Python
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model files (large - download from Colab/Drive)
+api/model/*.onnx
+api/model/tokenizer/
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Next.js
+dashboard/.next/
+dashboard/out/
+
+# Vite/Extension
+extension/dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.parquet
+data/raw/
+
+# Output
+output/
