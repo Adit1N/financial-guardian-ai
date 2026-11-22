@@ -47,3 +47,6 @@ data/raw/
 
 # Output
 output/
+api/model/model.pt
+venv/
+__pycache__/

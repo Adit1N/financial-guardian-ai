@@ -1,0 +1,39 @@
+{
+  "scam_labels": [
+    "legitimate",
+    "irs_impersonation",
+    "romance",
+    "crypto_investment",
+    "tech_support",
+    "package_delivery",
+    "business_email_compromise",
+    "fake_invoice",
+    "investment_scam"
+  ],
+  "txn_labels": [
+    "SHOPS",
+    "TRANSPORTATION",
+    "TRAVEL",
+    "FOOD_AND_DRINK",
+    "PROFESSIONAL_SERVICES",
+    "HEALTHCARE",
+    "EDUCATION",
+    "OFFICE_SUPPLIES",
+    "SOFTWARE",
+    "RENT_UTILITIES",
+    "PHONE_INTERNET",
+    "ADVERTISING_MARKETING",
+    "BANK_FEES",
+    "INTEREST",
+    "GROCERIES",
+    "STREAMING",
+    "CLOTHING",
+    "DOCTOR"
+  ],
+  "intent_labels": [
+    "scam",
+    "transaction",
+    "tax_question",
+    "other"
+  ]
+}

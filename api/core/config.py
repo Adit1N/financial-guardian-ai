@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     API_PORT: int = 8000
     DEBUG: bool = True
     MODEL_DIR: str = "./model"
-    MODEL_FILENAME: str = "financial_guardian_quantized.onnx"
+    MODEL_FILENAME: str = "model.pt"
     MAX_SEQ_LENGTH: int = 256
     REDIS_URL: str = "redis://localhost:6379/0"
     JWT_SECRET: str = "hackathon-secret-change-in-prod"
