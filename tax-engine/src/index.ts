@@ -4,3 +4,4 @@ export { importTransactionsCsv } from "./importers/csv";
 export { calculateSummary } from "./calculators/summary";
 export { calculateForecast } from "./calculators/cashflow-forecast";
 export { calculateExpenseBreakdown } from "./calculators/expense-breakdown";
+export { calculateIndiaTax } from "./calculators/india-tax";
