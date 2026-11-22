@@ -1,0 +1,6 @@
+id,date,description,amount,currency,type,category,status
+txn-001,2026-11-01,Website project payment,25000.00,INR,income,Freelance income,posted
+txn-002,2026-11-02,Design software subscription,1500.00,INR,expense,Software,posted
+txn-003,2026-11-03,Internet bill,1000.00,INR,expense,Internet,posted
+txn-004,2026-11-04,Transfer to own savings account,5000.00,INR,transfer,Own account transfer,posted
+txn-005,2026-11-05,Client payment awaiting settlement,8000.00,INR,income,Freelance income,pending

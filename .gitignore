@@ -47,3 +47,4 @@ data/raw/
 
 # Output
 output/
+!/tax-engine/data/transactions.csv
