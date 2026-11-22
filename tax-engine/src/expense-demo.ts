@@ -3,6 +3,7 @@ import { join } from "node:path";
 import {
   importTransactionsCsv,
   calculateExpenseBreakdown,
+  buildDeductionReview,
 } from "./index";
 
 const csv = readFileSync(
@@ -17,5 +18,19 @@ console.table(
   breakdown.map((item) => ({
     category: item.category,
     rupees: item.amountPaise / 100,
+  }))
+);
+
+const deductionReview = buildDeductionReview(transactions);
+
+console.log("\nExpenses requiring deduction review:");
+
+console.table(
+  deductionReview.map((item) => ({
+    transaction: item.transactionId,
+    category: item.category,
+    rupees: item.amountPaise / 100,
+    status: item.status,
+    reviewPrompt: item.reviewPrompt,
   }))
 );
